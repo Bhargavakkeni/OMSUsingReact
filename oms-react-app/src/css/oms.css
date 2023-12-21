@@ -1,0 +1,11 @@
+.omsapp{
+    margin: auto;
+    width: 50%;
+}
+
+#add,#show,#update,#delete{
+    width: 20%;
+    background-color: black;
+    color: aqua;
+    margin: 5px;
+}

@@ -1,0 +1,10 @@
+label{
+    margin: 4px;
+}
+
+@media screen and (min-width: 750px) {
+    .center{
+        margin: auto;
+        width: 50%;
+    }
+}

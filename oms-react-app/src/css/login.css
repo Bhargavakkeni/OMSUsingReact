@@ -1,0 +1,42 @@
+nav{
+    background-color: black;
+    padding: 10px;
+    color: aqua;
+}
+
+.row{
+    flex-direction: column;
+}
+
+.card{
+    margin: auto;
+}
+
+#submit{
+    width: 40%;
+}
+
+#submit{
+    background-color: black;
+    color: aqua;
+    margin: 5px;
+}
+@media screen and (min-width: 750px) {
+    .card{
+        max-width: 100%;
+        margin: 10px auto;
+        width: 50%;
+    }
+
+    .card-title h2{
+        text-align: start;
+        margin: 0;
+    }
+
+    label{
+        width: 80%
+    }
+    #submit{
+        width: 40%;
+    }
+}

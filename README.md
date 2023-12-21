@@ -8,6 +8,6 @@ step 1: Go to oms-react-app
         Run this command in terminal 'cd oms-react-app' from the root directory.
 step 2: Start the React server.
         Run this command 'npm start' to start the server.
-step 3: go to backend directory.
+step 3: go to 'Backend' directory.
         Run this command from the backend directory 'python manage.py runserver' to start django server.
 step 4: Open 'localhost:3000' to view the page.

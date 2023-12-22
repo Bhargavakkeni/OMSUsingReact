@@ -3,7 +3,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../css/add.css'
 
-function AddOrder(){
+function AddOrder() {
     const [inputs, setInputs] = useState({});
     let { username } = useParams();
     if (username == undefined) {
@@ -20,7 +20,18 @@ function AddOrder(){
         console.log(inputs);
         try {
             const apiUrl = `http://127.0.0.1:8000/api/get_orders/${username}`;
-            const postOrderDetails = { inputs };
+            console.log(inputs)
+            const postOrderDetails = {
+                'brand': inputs.brand,
+                'shipMethod': inputs.shipMethod,
+                'processingDays': inputs.processingDays,
+                'processingDaysType': inputs.processingDaysType,
+                'min': inputs.min,
+                'max': inputs.max,
+                'processingDate': inputs.processingDate,
+                'availableToPromiseDate': inputs.availableToPromiseDate,
+                'cutOff': inputs.cutOff
+            };
             const response = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {
@@ -42,19 +53,19 @@ function AddOrder(){
         }
     };
 
-    return(
+    return (
         <>
-        <nav>
-            <Link to={`/show/${username}`}>Home</Link>
-            {username ? <Link to='/oms' id='logout'>Logout</Link> : null}
-        </nav>
-        <div className="container">
-            <div className="row">
-                <div className='col'>
-                <Link className='btn btn-success' to={`/show/${username}`}>Show</Link>
-                <Link className='btn btn-danger' to={`/show/${username}/edit`}>Edit</Link>
-                </div>
-            <div className='col center'>
+            <nav>
+                <Link to={`/show/${username}`}>Home</Link>
+                {username ? <Link to='/oms' id='logout'>Logout</Link> : null}
+            </nav>
+            <div className="container">
+                <div className="row">
+                    <div className='col'>
+                        <Link className='btn btn-success' to={`/show/${username}`}>Show</Link>
+                        <Link className='btn btn-danger' to={`/show/${username}/edit`}>Edit</Link>
+                    </div>
+                    <div className='col center'>
                         <form name='omsForm' className='center' onSubmit={handleSubmit}>
                             <h3>
                                 OMS
@@ -135,8 +146,8 @@ function AddOrder(){
                             {/*<input type='button' className='form-control' id='show' name='show' value='Show' onClick={handleShow} />*/}
                         </form>
                     </div>
+                </div>
             </div>
-        </div>
         </>
     );
 }

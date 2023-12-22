@@ -1,0 +1,91 @@
+2023-12-22 11:12:25,115-[INFO] [Thread-1 (process_request_thread)] (views:119) api get_login is called
+2023-12-22 11:12:25,118-[INFO] [Thread-1 (process_request_thread)] (views:122) Retrieving login record with username bhargav
+2023-12-22 11:12:25,216-[INFO] [Thread-1 (process_request_thread)] (views:129) GET method is triggered.
+2023-12-22 11:12:25,216-[INFO] [Thread-1 (process_request_thread)] (views:132) sending record with username bhargav
+2023-12-22 11:12:26,745-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:12:26,745-[INFO] [Thread-1 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:12:26,847-[INFO] [Thread-1 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:12:26,847-[INFO] [Thread-1 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:12:26,847-[INFO] [Thread-1 (process_request_thread)] (views:59) Returning records with given id/username-bhargav
+2023-12-22 11:12:26,859-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:12:26,859-[INFO] [Thread-1 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:12:26,955-[INFO] [Thread-1 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:12:26,955-[INFO] [Thread-1 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:12:26,955-[INFO] [Thread-1 (process_request_thread)] (views:59) Returning records with given id/username-bhargav
+2023-12-22 11:13:09,632-[INFO] [Thread-2 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:13:09,632-[INFO] [Thread-2 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:13:09,632-[INFO] [Thread-2 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:13:09,636-[WARNING] [Thread-2 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:14:16,099-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:14:22,004-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:14:32,649-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:14:51,066-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:14:51,066-[INFO] [Thread-1 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:14:51,067-[INFO] [Thread-1 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:14:51,071-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:15:12,824-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:15:19,207-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:15:19,207-[INFO] [Thread-1 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:15:19,207-[INFO] [Thread-1 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:15:19,211-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:15:27,854-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:15:27,854-[INFO] [Thread-1 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:15:27,854-[INFO] [Thread-1 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:15:27,857-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:15:41,474-[INFO] [Thread-2 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:15:41,475-[INFO] [Thread-2 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:15:41,475-[INFO] [Thread-2 (process_request_thread)] (views:51) Returning all the records.
+2023-12-22 11:15:42,698-[WARNING] [Thread-4 (process_request_thread)] (log:241) Not Found: /favicon.ico
+2023-12-22 11:15:50,774-[INFO] [Thread-4 (process_request_thread)] (views:121) api get_login is called
+2023-12-22 11:15:50,774-[INFO] [Thread-4 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-22 11:15:50,774-[INFO] [Thread-4 (process_request_thread)] (views:139) sending all records
+2023-12-22 11:15:55,368-[INFO] [Thread-8 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:15:55,368-[INFO] [Thread-8 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:15:55,368-[INFO] [Thread-8 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:15:55,368-[WARNING] [Thread-8 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:16:44,619-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:16:49,305-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:17:02,751-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:17:02,753-[INFO] [Thread-1 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:17:02,753-[INFO] [Thread-1 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:17:02,758-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:17:37,881-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:17:37,882-[INFO] [Thread-1 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:17:37,882-[INFO] [Thread-1 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:17:37,887-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:19:37,499-[INFO] [Thread-2 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:19:37,499-[INFO] [Thread-2 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:19:37,499-[INFO] [Thread-2 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:19:37,503-[WARNING] [Thread-2 (process_request_thread)] (log:241) Bad Request: /api/get_orders/bhargav
+2023-12-22 11:24:12,351-[INFO] [Thread-3 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:24:12,352-[INFO] [Thread-3 (process_request_thread)] (views:64) POST method is triggered.
+2023-12-22 11:24:12,352-[INFO] [Thread-3 (process_request_thread)] (views:66) Getting inputs from request.data which comes from react frontend
+2023-12-22 11:24:12,354-[INFO] [Thread-3 (process_request_thread)] (views:70) request is from not react front end so assign request.data directly
+2023-12-22 11:24:12,458-[INFO] [Thread-3 (process_request_thread)] (views:79) Recieved valid data, saving into database.
+2023-12-22 11:24:17,441-[INFO] [Thread-3 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:24:17,441-[INFO] [Thread-3 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:24:17,541-[INFO] [Thread-3 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:24:17,541-[INFO] [Thread-3 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:24:17,541-[INFO] [Thread-3 (process_request_thread)] (views:59) Returning records with given id/username-bhargav
+2023-12-22 11:24:17,549-[INFO] [Thread-3 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:24:17,549-[INFO] [Thread-3 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:24:17,650-[INFO] [Thread-3 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:24:17,650-[INFO] [Thread-3 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:24:17,650-[INFO] [Thread-3 (process_request_thread)] (views:59) Returning records with given id/username-bhargav
+2023-12-22 11:25:21,194-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:25:28,100-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-22 11:26:17,711-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:26:17,808-[INFO] [Thread-1 (process_request_thread)] (views:25) Records found with given id-2
+2023-12-22 11:26:17,808-[INFO] [Thread-1 (process_request_thread)] (views:84) PUT method is triggered.
+2023-12-22 11:26:17,808-[INFO] [Thread-1 (process_request_thread)] (views:86) Getting preexisting order values and combining it with received ney key,value pair and username
+2023-12-22 11:26:17,820-[INFO] [Thread-1 (process_request_thread)] (views:93) Recieved valid data, updating database.
+2023-12-22 11:26:20,695-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:26:20,695-[INFO] [Thread-1 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:26:20,817-[INFO] [Thread-1 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:26:20,817-[INFO] [Thread-1 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:26:20,817-[INFO] [Thread-1 (process_request_thread)] (views:59) Returning records with given id/username-bhargav
+2023-12-22 11:26:20,822-[INFO] [Thread-1 (process_request_thread)] (views:20) api get_orders is called.
+2023-12-22 11:26:20,822-[INFO] [Thread-1 (process_request_thread)] (views:27) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-22 11:26:20,925-[INFO] [Thread-1 (process_request_thread)] (views:34) Records found with given username bhargav.
+2023-12-22 11:26:20,925-[INFO] [Thread-1 (process_request_thread)] (views:47) GET method is triggered.
+2023-12-22 11:26:20,925-[INFO] [Thread-1 (process_request_thread)] (views:59) Returning records with given id/username-bhargav

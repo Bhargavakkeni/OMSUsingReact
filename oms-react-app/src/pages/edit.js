@@ -123,7 +123,7 @@ function Edit() {
                             <h2>OMS update details</h2>
                             <form name='updateForm' id='updateForm' onSubmit={handleUpdateSubmit}>
                                 <label>Enter Id to update<span>*</span>
-                                    <select id='idUpdate' className='form-control' name='idUpdate' value={inputs.idUpdate || ''}>
+                                    <select id='updateId' className='form-control' name='updateId' value={inputs.updateId || ''} onChange={handleInputs}>
                                         {tabledata.map((item, index) => (
                                             <option key={index} value={item.id}>{item.id}</option>
                                         ))}
@@ -156,7 +156,7 @@ function Edit() {
                         <h2>OMS delete details </h2>
                         <form name='deleteForm' id='deleteForm' onSubmit={handleDeleteSubmit}>
                             <label>Enter id to delete<span>*</span>
-                                <select id='idUpdate' className='form-control' name='idUpdate' value={inputs.idUpdate || ''}>
+                                <select id='deleteId' className='form-control' name='deleteId' value={inputs.deleteId || ''} onChange={handleInputs}>
                                     {tabledata.map((item, index) => (
                                         <option key={index} value={item.id}>{item.id}</option>
                                     ))}

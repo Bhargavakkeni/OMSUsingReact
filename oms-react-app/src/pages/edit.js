@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../css/edit.css';
@@ -11,6 +11,39 @@ function Edit() {
     if (username == undefined) {
         username = '';
     }
+
+    useEffect(() => {
+        const handleShow = async (event) => {
+            try {
+                if (username == '') {
+                    return alert('please login')
+                }
+                const apiUrl = `http://127.0.0.1:8000/api/get_orders/${username}`;
+                const response = await fetch(apiUrl);
+                if (response.status == 200) {
+                    console.log('success')
+
+                }
+                const data = await response.json();
+                if (data) {
+                    setTabledata(data);
+                    //data = JSON.parse(data);
+                    for (let ele of data) {
+                        for (let key in ele) {
+                            console.log(key, ele[key]);
+                        }
+                    }
+                    console.log(data[0]);
+                } else {
+                    console.log('error in data');
+                }
+            } catch {
+                console.log('error in url')
+            }
+        };
+        handleShow();
+    }, [username]);
+
 
     const handleInputs = (event) => {
         const name = event.target.name;
@@ -83,14 +116,19 @@ function Edit() {
                 <div className="row">
                     <div className='col'>
                         <Link className='btn btn-success' to={`/show/${username}`}>Show</Link>
-                <Link className='btn btn-primary' to={`/show/${username}/add`}>Add</Link>
+                        <Link className='btn btn-primary' to={`/show/${username}/add`}>Add</Link>
                     </div>
                     <div className='col'>
                         <div className='Oms update details'>
                             <h2>OMS update details</h2>
                             <form name='updateForm' id='updateForm' onSubmit={handleUpdateSubmit}>
                                 <label>Enter Id to update<span>*</span>
-                                    <input type='number' className='form-control' value={inputs.updateId || ''} id='updateId' name='updateId' onChange={handleInputs} required />
+                                    <select id='idUpdate' className='form-control' name='idUpdate' value={inputs.idUpdate || ''}>
+                                        {tabledata.map((item, index) => (
+                                            <option key={index} value={item.id}>{item.id}</option>
+                                        ))}
+                                    </select>
+                                    {/*<input type='number' className='form-control' value={inputs.updateId || ''} id='updateId' name='updateId' onChange={handleInputs} required />*/}
                                 </label>
                                 <label>Select field to update<span>*</span>
                                     <select id='fieldUpdate' className='form-control' name='fieldUpdate' value={inputs.fieldUpdate || ''} onChange={handleInputs} onClick={changeType}>
@@ -118,7 +156,12 @@ function Edit() {
                         <h2>OMS delete details </h2>
                         <form name='deleteForm' id='deleteForm' onSubmit={handleDeleteSubmit}>
                             <label>Enter id to delete<span>*</span>
-                                <input type='number' className='form-control' id='deleteId' name='deleteId' value={inputs.deleteId || ''} onChange={handleInputs} required />
+                                <select id='idUpdate' className='form-control' name='idUpdate' value={inputs.idUpdate || ''}>
+                                    {tabledata.map((item, index) => (
+                                        <option key={index} value={item.id}>{item.id}</option>
+                                    ))}
+                                </select>
+                                {/*<input type='number' className='form-control' id='deleteId' name='deleteId' value={inputs.deleteId || ''} onChange={handleInputs} required />*/}
                             </label>
                             <input type='submit' className='form-control' id='delete' value='Delete' />
                         </form>

@@ -388,3 +388,195 @@
 2023-12-23 11:56:15,803-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
 2023-12-23 11:56:15,803-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
 2023-12-23 11:56:15,803-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 11:57:52,151-[INFO] [Thread-1 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 11:57:52,151-[INFO] [Thread-1 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 11:57:52,373-[WARNING] [Thread-1 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 11:57:56,058-[INFO] [Thread-1 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 11:57:56,058-[INFO] [Thread-1 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 11:57:56,145-[WARNING] [Thread-1 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 11:58:16,354-[INFO] [Thread-2 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 11:58:16,355-[INFO] [Thread-2 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 11:58:16,455-[WARNING] [Thread-2 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 11:58:43,940-[INFO] [Thread-3 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 11:58:43,940-[INFO] [Thread-3 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 11:58:44,045-[WARNING] [Thread-3 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 11:59:06,093-[INFO] [Thread-4 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 11:59:06,093-[INFO] [Thread-4 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 11:59:06,196-[WARNING] [Thread-4 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 12:01:20,004-[INFO] [ThreadPoolExecutor-1_0] (base:123) Running job "printOrders (trigger: cron[minute='1', second='20'], next run at: 2023-12-23 12:01:20 IST)" (scheduled at 2023-12-23 12:01:20+05:30)
+2023-12-23 12:01:20,005-[INFO] [ThreadPoolExecutor-1_0] (views:196) printOrders is called
+2023-12-23 12:01:20,130-[INFO] [ThreadPoolExecutor-1_0] (views:199) Opening csv file to write orders.
+2023-12-23 12:01:20,137-[INFO] [ThreadPoolExecutor-1_0] (views:201) Writing data into orders.csv file
+2023-12-23 12:01:20,145-[INFO] [ThreadPoolExecutor-1_0] (base:144) Job "printOrders (trigger: cron[minute='1', second='20'], next run at: 2023-12-23 13:01:20 IST)" executed successfully
+2023-12-23 12:43:55,943-[INFO] [Thread-5 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 12:43:55,943-[INFO] [Thread-5 (process_request_thread)] (views:124) Retrieving login record with username f
+2023-12-23 12:43:56,049-[WARNING] [Thread-5 (process_request_thread)] (log:241) Not Found: /api/get_login/f
+2023-12-23 13:01:20,002-[INFO] [ThreadPoolExecutor-1_0] (base:123) Running job "printOrders (trigger: cron[minute='1', second='20'], next run at: 2023-12-23 14:01:20 IST)" (scheduled at 2023-12-23 13:01:20+05:30)
+2023-12-23 13:01:20,002-[INFO] [ThreadPoolExecutor-1_0] (views:196) printOrders is called
+2023-12-23 13:01:20,010-[INFO] [ThreadPoolExecutor-1_0] (views:199) Opening csv file to write orders.
+2023-12-23 13:01:20,018-[INFO] [ThreadPoolExecutor-1_0] (views:201) Writing data into orders.csv file
+2023-12-23 13:01:20,018-[INFO] [ThreadPoolExecutor-1_0] (base:144) Job "printOrders (trigger: cron[minute='1', second='20'], next run at: 2023-12-23 14:01:20 IST)" executed successfully
+2023-12-23 13:54:42,417-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:54:42,420-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:54:42,514-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:54:42,520-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:54:44,107-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:54:44,108-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:54:44,169-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:54:44,169-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:54:44,170-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:54:44,177-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:54:44,177-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:54:44,229-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:54:44,229-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:54:44,229-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:54:47,579-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:54:47,579-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:54:47,629-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:54:47,629-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:54:47,629-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:54:47,633-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:54:47,634-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:54:47,682-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:54:47,682-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:54:47,682-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:03,350-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:55:03,350-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:55:03,398-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:55:03,399-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:55:04,872-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:04,872-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:04,912-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:04,912-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:04,912-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:04,926-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:04,926-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:05,092-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:05,092-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:05,107-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:46,825-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:46,825-[INFO] [Thread-6 (process_request_thread)] (views:65) POST method is triggered.
+2023-12-23 13:55:46,825-[INFO] [Thread-6 (process_request_thread)] (views:67) Getting inputs from request.data which comes from react frontend
+2023-12-23 13:55:46,825-[INFO] [Thread-6 (process_request_thread)] (views:70) request is from not react front end so assign request.data directly
+2023-12-23 13:55:46,881-[INFO] [Thread-6 (process_request_thread)] (views:79) Recieved valid data, saving into database.
+2023-12-23 13:55:51,216-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:51,217-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:51,267-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:51,267-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:51,268-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:51,272-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:51,272-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:51,428-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:51,428-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:51,429-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:54,859-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:54,859-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:54,912-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:54,913-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:54,913-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:55:54,916-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:55:54,918-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:55:54,964-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:55:54,964-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:55:54,964-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:15,805-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:15,958-[INFO] [Thread-6 (process_request_thread)] (views:26) Records found with given id-4
+2023-12-23 13:56:15,958-[INFO] [Thread-6 (process_request_thread)] (views:85) PUT method is triggered.
+2023-12-23 13:56:15,958-[INFO] [Thread-6 (process_request_thread)] (views:87) Getting preexisting order values and combining it with received ney key,value pair and username
+2023-12-23 13:56:15,958-[INFO] [Thread-6 (process_request_thread)] (views:94) Recieved valid data, updating database.
+2023-12-23 13:56:18,972-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:18,972-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:19,021-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:19,021-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:19,022-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:19,026-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:19,026-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:19,075-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:19,075-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:19,075-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:24,385-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:24,385-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:24,435-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:24,435-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:24,436-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:24,439-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:24,439-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:24,488-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:24,488-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:24,488-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:42,852-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:56:42,852-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:56:42,902-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:56:42,902-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:56:44,325-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:44,325-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:44,364-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:44,364-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:44,364-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:44,379-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:44,379-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:56:44,525-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:56:44,525-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:56:44,525-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:56:57,961-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:56:57,962-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:56:58,010-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:56:58,010-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:56:59,893-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:56:59,894-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:00,038-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:00,038-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:00,038-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:57:00,056-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:57:00,056-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:00,105-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:00,105-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:00,105-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:57:51,528-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:57:51,528-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:57:51,683-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:57:51,683-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:57:52,886-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:57:52,886-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:52,937-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:52,937-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:52,937-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:57:52,941-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:57:52,941-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:52,991-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:52,991-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:52,991-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:57:54,662-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:57:54,663-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:54,818-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:54,818-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:54,818-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:57:54,823-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:57:54,823-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:57:54,870-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:57:54,870-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:57:54,870-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:58:02,468-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:58:02,468-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username bhargav
+2023-12-23 13:58:02,517-[INFO] [Thread-6 (process_request_thread)] (views:131) GET method is triggered.
+2023-12-23 13:58:02,518-[INFO] [Thread-6 (process_request_thread)] (views:134) sending record with username bhargav
+2023-12-23 13:58:03,812-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:58:03,812-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:58:03,855-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:58:03,855-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:58:03,855-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:58:03,866-[INFO] [Thread-6 (process_request_thread)] (views:21) api get_orders is called.
+2023-12-23 13:58:03,866-[INFO] [Thread-6 (process_request_thread)] (views:28) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 13:58:03,919-[INFO] [Thread-6 (process_request_thread)] (views:35) Records found with given username bhargav.
+2023-12-23 13:58:03,919-[INFO] [Thread-6 (process_request_thread)] (views:48) GET method is triggered.
+2023-12-23 13:58:03,919-[INFO] [Thread-6 (process_request_thread)] (views:60) Returning records with given id/username-bhargav
+2023-12-23 13:58:27,736-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:58:27,736-[INFO] [Thread-6 (process_request_thread)] (views:146) POST method is triggered
+2023-12-23 13:58:27,836-[WARNING] [Thread-6 (process_request_thread)] (log:241) Bad Request: /api/get_login
+2023-12-23 13:58:35,335-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:58:35,335-[INFO] [Thread-6 (process_request_thread)] (views:146) POST method is triggered
+2023-12-23 13:58:35,385-[INFO] [Thread-6 (process_request_thread)] (views:153) Recieved valid data, saving into database.
+2023-12-23 13:58:45,710-[INFO] [Thread-6 (process_request_thread)] (views:121) api get_login is called
+2023-12-23 13:58:45,710-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username gopal1
+2023-12-23 13:58:45,753-[INFO] [Thread-6 (process_request_thread)] (views:161) PUT method is triggered.
+2023-12-23 13:58:45,758-[INFO] [Thread-6 (process_request_thread)] (views:165) Recieved valid data, saving into database.

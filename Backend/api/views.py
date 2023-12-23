@@ -6,7 +6,11 @@ from .models import OmsAdmin,LoginDetails
 from .serializers import OrderSerializer,LoginSerializer
 import logging
 from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.combining import OrTrigger
+from apscheduler.triggers.date import DateTrigger
+from apscheduler.triggers.interval import IntervalTrigger
 from apscheduler.triggers.cron import CronTrigger
+from datetime import datetime, timedelta
 import csv
 import pytz
 
@@ -78,13 +82,10 @@ def get_orders(request,id='',format=''):
         '''
         
         logging.info("POST method is triggered.")
-        try:
-            logging.info("Getting inputs from request.data which comes from react frontend")
-            data = request.data['inputs']
-        except:
-            logging.info("request is from not react front end so assign request.data directly")
-            data = request.data
-            
+        
+        logging.info("Getting inputs from request.data which comes from react frontend")
+        data = request.data['inputs']
+
         data['username']=id
         try:
             serializer = OrderSerializer(data=request.data)
@@ -255,11 +256,15 @@ def printOrders():
         file.close()
 
 
-scheduler = BackgroundScheduler()
+scheduler = BackgroundScheduler(timezone='UTC')
 
-scheduler = BackgroundScheduler(timezone=pytz.timezone('Asia/Kolkata'))
+#scheduler = BackgroundScheduler(timezone=pytz.timezone('Asia/Kolkata'))
 
-scheduler.add_job(printOrders,trigger=CronTrigger(minute=1,second=20))
+scheduler.add_job(printOrders,
+                  trigger=OrTrigger([
+                      IntervalTrigger(seconds=80),
+                      DateTrigger(run_date=datetime.now() + timedelta(seconds = 80))
+                  ]))
 scheduler.start()
 
 

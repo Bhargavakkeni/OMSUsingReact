@@ -1,15 +1,18 @@
-nav{
+nav {
     background-color: black;
     padding: 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: brown;
     padding: 5px;
-    
+
 }
 
-#login,#logout,#register{
+#login,
+#logout,
+#register {
     float: right;
     padding: 0;
 }

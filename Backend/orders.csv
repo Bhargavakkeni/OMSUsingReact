@@ -1,0 +1,15 @@
+id,brand,shipMethod,processingDays,processingDaysType,min,max,processingDate,availableToPromiseDate,cutOff,username_id
+1,Bajaj,Air,3,Normal,3,5,2023-12-01,2023-12-08,54,bhargav
+2,MSI,Air,7,Normal,3,5,2023-12-30,2023-12-23,100,bhargav
+id,brand,shipMethod,processingDays,processingDaysType,min,max,processingDate,availableToPromiseDate,cutOff,username_id
+1,Bajaj,Air,3,Normal,3,5,2023-12-01,2023-12-08,54,bhargav
+2,MSI,Air,7,Normal,3,5,2023-12-30,2023-12-23,100,bhargav
+id,brand,shipMethod,processingDays,processingDaysType,min,max,processingDate,availableToPromiseDate,cutOff,username_id
+1,Bajaj,Air,3,Normal,3,5,2023-12-01,2023-12-08,54,bhargav
+2,MSI,Air,7,Normal,3,5,2023-12-30,2023-12-23,100,bhargav
+id,brand,shipMethod,processingDays,processingDaysType,min,max,processingDate,availableToPromiseDate,cutOff,username_id
+1,Bajaj,Air,3,Normal,3,5,2023-12-01,2023-12-08,54,bhargav
+2,MSI,Air,7,Normal,3,5,2023-12-30,2023-12-23,100,bhargav
+id,brand,shipMethod,processingDays,processingDaysType,min,max,processingDate,availableToPromiseDate,cutOff,username_id
+1,Bajaj,Air,3,Normal,3,5,2023-12-01,2023-12-08,54,bhargav
+2,MSI,Air,7,Normal,3,5,2023-12-30,2023-12-23,100,bhargav

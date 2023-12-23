@@ -3,22 +3,39 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import '../css/add.css'
 
+/*
+This component is to lets the user add new order records. It takes user input and sends the data to store it in database.
+*/
+
 function AddOrder() {
+
+    //Here we are using inputs object to store all the field values entered by user.
     const [inputs, setInputs] = useState({});
     let { username } = useParams();
+
     if (username == undefined) {
         username = '';
     }
+
+    //handles user input in the addForm
     const handleInputs = (event) => {
         const name = event.target.name;
         const value = event.target.value;
         setInputs(values => ({ ...values, [name]: value }));
     };
 
+    //handles the submit of addForm it sends the data to the server.
     const handleSubmit = async (event) => {
+
         event.preventDefault();
         console.log(inputs);
+
         try {
+
+            if (username == '') {
+                return alert('please login')
+            }
+
             const apiUrl = `http://127.0.0.1:8000/api/get_orders/${username}`;
             console.log(inputs)
             const postOrderDetails = {
@@ -31,7 +48,9 @@ function AddOrder() {
                 'processingDate': inputs.processingDate,
                 'availableToPromiseDate': inputs.availableToPromiseDate,
                 'cutOff': inputs.cutOff
-            };
+            }; //data to send to database.
+
+            //establishes connection througn POST method.
             const response = await fetch(apiUrl, {
                 method: 'POST',
                 headers: {
@@ -39,6 +58,8 @@ function AddOrder() {
                 },
                 body: JSON.stringify(postOrderDetails),
             });
+
+            //after successful posting data it sets the inputs fields to initial value.
             if (response.status != 201) {
                 throw new Error(`error:${response.status}`);
             } else {
@@ -47,17 +68,20 @@ function AddOrder() {
                 setInputs({});
                 console.log('saved:', data);
             }
+
         } catch (error) {
             alert('please try again\nIf you are not logged in please login.');
             console.error('error', error.message);
         }
+
     };
 
     return (
+
         <>
             <nav>
                 <Link to={`/show/${username}`}>Home</Link>
-                {username ? <Link to='/oms' id='logout'>Logout</Link> : null}
+                {username ? <Link to='/login' id='logout'>Logout</Link> : null}
             </nav>
             <div className="container">
                 <div className="row">
@@ -150,6 +174,7 @@ function AddOrder() {
             </div>
         </>
     );
+   
 }
 
 export default AddOrder;

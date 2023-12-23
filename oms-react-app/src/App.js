@@ -6,8 +6,10 @@ import Layout from './pages/layout';
 import Reset from './pages/reset';
 import Login from './pages/login';
 import Oms from './pages/oms';
-//import axios from 'axios'
-//import './App.css';
+
+/*
+Generaly here is were we define routes for our application. But we aren't using it for our application.
+*/
 
 function App() {
 

@@ -1,9 +1,14 @@
-label{
+
+/*
+CSS for add.js component or 'OMS add' page
+*/
+
+label {
     margin: 4px;
 }
 
 @media screen and (min-width: 750px) {
-    .center{
+    .center {
         margin: auto;
         width: 50%;
     }

@@ -1,27 +1,33 @@
-.btn{
+
+/*
+CSS for show.js component or 'OMS show page'.
+*/
+
+.btn {
     float: right;
     margin: 5px;
 }
 
-h2,h3{
+h2,
+h3 {
     text-align: center;
     margin: 30px;
 }
 
-td,tr{
- padding: 6px;   
+td,
+tr {
+    padding: 6px;
 }
 
-table{
+table {
     width: 50%;
     margin: 0 auto;
     border: 2px solid
 }
 
-.tabledata{
+.tabledata {
     display: flex;
     margin: 15px auto;
     flex-wrap: wrap;
     flex-direction: column
 }
-

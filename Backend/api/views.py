@@ -5,9 +5,10 @@ from rest_framework.response import Response
 from .models import OmsAdmin,LoginDetails
 from .serializers import OrderSerializer,LoginSerializer
 import logging
-import schedule
-import time 
+from apscheduler.schedulers.background import BackgroundScheduler
+from apscheduler.triggers.cron import CronTrigger
 import csv
+import pytz
 
 # Create your views here.
 
@@ -165,8 +166,8 @@ def get_login(request,username='',format=''):
                 serializer.save()
                 return Response(serializer.data,status=status.HTTP_202_ACCEPTED)
             else:
-                logging.debug("Didn't recieved valid data. Recieved data is {}".format(request.data))
-                return Response({'error':'a unknown'},status=status.HTTP_400_BAD_REQUEST)
+                logging.debug("Didn't recieved valid data or user doesn't exist. Recieved data is {}".format(request.data))
+                return Response({'error':'a unknown'},status=status.HTTP_404_NOT_FOUND)
         else:
             logging.debug("Missing username in url request.")
             return Response(status=status.HTTP_304_NOT_MODIFIED)
@@ -186,3 +187,36 @@ def get_login(request,username='',format=''):
         return Response(status=status.HTTP_406_NOT_ACCEPTABLE)
     
         
+'''
+scheduling tasks
+'''
+
+
+def printOrders():
+    logging.info('printOrders is called')
+    orders = list(OmsAdmin.objects.all().values())
+    try:
+        logging.info('Opening csv file to write orders.')
+        with open('orders.csv','a+',newline='') as file:
+            logging.info('Writing data into orders.csv file')
+            writer = csv.DictWriter(file, fieldnames=orders[0].keys())
+            writer.writeheader()
+            writer.writerows(orders)
+
+    except Exception as e:
+        with open('errors.txt','a+') as file:
+            logging.debug('Error occured during writing into csv file writing error into errors.txt')
+            file.write('Error occured: {}'.format(e) + '\n')
+        
+    finally:
+        file.close()
+
+
+scheduler = BackgroundScheduler()
+
+scheduler = BackgroundScheduler(timezone=pytz.timezone('Asia/Kolkata'))
+
+scheduler.add_job(printOrders,trigger=CronTrigger(minute=1,second=20))
+scheduler.start()
+
+

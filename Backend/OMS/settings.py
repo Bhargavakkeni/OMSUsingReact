@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'api',
     'rest_framework',
     'corsheaders',
+    'apscheduler',
 ]
 
 MIDDLEWARE = [
@@ -59,6 +60,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     # Add any other allowed origins as needed
 ]
+
+SCHEDULER_ALLOWED_HOSTS = ["localhost", "127.0.0.1", "[::1]"]
 
 ROOT_URLCONF = 'OMS.urls'
 

@@ -1,9 +1,17 @@
-.omsapp{
+/*
+CSS for oms.js component or OMS page where all functionalities show, add, update, delete are defined in single page.
+which I have never used though first idea is to display this page.
+*/
+
+.omsapp {
     margin: auto;
     width: 50%;
 }
 
-#add,#show,#update,#delete{
+#add,
+#show,
+#update,
+#delete {
     width: 20%;
     background-color: black;
     color: aqua;

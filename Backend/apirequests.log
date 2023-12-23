@@ -580,3 +580,809 @@
 2023-12-23 13:58:45,710-[INFO] [Thread-6 (process_request_thread)] (views:124) Retrieving login record with username gopal1
 2023-12-23 13:58:45,753-[INFO] [Thread-6 (process_request_thread)] (views:161) PUT method is triggered.
 2023-12-23 13:58:45,758-[INFO] [Thread-6 (process_request_thread)] (views:165) Recieved valid data, saving into database.
+2023-12-23 14:00:01,170-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:00:11,108-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:00:11,108-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:00:11,108-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:00:31,250-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:00:32,142-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:00:32,143-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:00:32,143-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:00:53,160-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:00:53,998-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:00:53,998-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:00:53,998-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:00,497-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:01,362-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:01,362-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:01,362-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:05,814-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:06,795-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:06,795-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:06,795-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:15,412-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:16,348-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:16,348-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:16,348-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:19,791-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:20,758-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:20,758-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:20,758-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:28,319-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:29,172-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:29,172-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:29,172-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:32,619-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:33,605-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:33,605-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:33,605-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:39,062-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:40,039-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:40,039-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:40,039-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:01:47,648-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:01:48,543-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:01:48,543-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:01:48,543-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:02,327-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:03,245-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:03,245-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:03,245-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:15,987-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:16,813-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:16,813-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:16,813-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:28,479-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:29,357-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:29,361-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:29,361-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:37,953-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:38,782-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:38,783-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:38,783-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:46,360-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:47,300-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:47,300-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:47,300-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:51,747-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:52,680-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:52,680-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:52,680-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:02:57,109-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:02:58,081-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:02:58,081-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:02:58,081-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:11,863-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:12,708-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:12,710-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:12,710-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:23,432-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:24,312-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:24,312-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:24,312-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:26,698-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:27,566-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:27,566-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:27,566-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:28,933-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:29,823-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:29,823-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:29,823-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:34,272-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:35,171-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:35,171-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:35,171-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:36,529-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:37,385-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:37,385-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:37,385-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:38,738-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:39,581-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:39,581-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:39,581-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:41,988-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\urls.py changed, reloading.
+2023-12-23 14:03:42,943-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:42,944-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:42,944-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:50,492-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:03:51,387-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:51,388-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:51,388-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:52,740-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:03:53,691-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:53,691-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:53,691-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:03:56,099-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:03:57,034-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:03:57,034-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:03:57,034-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:00,471-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:04:01,427-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:01,427-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:01,427-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:06,917-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:04:07,945-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:07,945-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:07,945-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:12,421-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:04:13,338-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:13,338-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:13,338-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:14,717-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:04:15,686-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:15,686-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:15,686-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:32,591-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\models.py changed, reloading.
+2023-12-23 14:04:33,682-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:33,682-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:33,682-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:40,207-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\serializers.py changed, reloading.
+2023-12-23 14:04:41,107-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:41,107-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:41,107-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:04:54,879-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\serializers.py changed, reloading.
+2023-12-23 14:04:55,754-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:04:55,754-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:04:55,754-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:05:05,398-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\serializers.py changed, reloading.
+2023-12-23 14:05:06,319-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:05:06,319-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:05:06,319-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:05:16,956-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:05:17,877-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:05:17,877-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:05:17,877-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:05:19,236-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:05:20,183-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:05:20,183-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:05:20,183-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:05:45,307-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:05:46,392-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:05:46,392-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:05:46,393-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:05:47,745-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:05:48,723-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:05:48,723-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:05:48,723-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:00,460-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:01,347-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:01,347-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:01,357-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:08,943-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:09,908-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:09,908-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:09,908-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:35,039-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:36,021-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:36,021-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:36,021-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:38,393-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:39,386-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:39,386-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:39,386-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:40,741-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:41,688-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:41,689-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:41,689-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:06:45,122-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:06:46,171-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:06:46,172-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:06:46,172-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:08:01,959-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:08:02,991-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:08:02,991-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:08:02,991-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:08:13,671-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:08:14,671-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:08:14,671-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:08:14,671-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:09:29,454-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:09:30,521-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:09:30,521-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:09:30,521-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:09:41,163-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:09:42,184-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:09:42,184-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:09:42,184-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:09:58,020-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:09:59,100-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:09:59,100-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:09:59,100-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:10:07,707-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:10:08,669-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:10:08,669-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:10:08,669-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:11:19,295-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:11:20,495-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:11:20,496-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:11:20,496-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:11:21,843-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:11:22,917-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:11:22,917-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:11:22,917-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:11:25,358-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:11:26,458-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:11:26,458-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:11:26,458-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:02,934-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:03,930-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:03,930-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:03,930-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:05,295-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:06,207-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:06,207-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:06,207-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:07,578-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:08,395-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:08,395-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:08,395-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:09,779-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:10,759-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:10,760-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:10,760-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:16,251-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:17,287-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:17,287-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:17,287-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:19,696-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:20,621-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:20,621-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:20,621-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:13:24,049-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:13:24,948-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:13:24,948-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:13:24,948-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:14:53,205-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:14:54,184-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:14:54,184-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:14:54,184-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:14:56,603-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:14:57,477-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:14:57,477-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:14:57,477-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:15:47,372-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:15:48,218-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:15:48,224-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:15:48,224-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:15:49,612-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:15:50,438-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:15:50,438-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:15:50,438-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:16:01,093-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:16:02,042-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:16:02,044-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:16:02,044-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:18:58,004-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:18:58,943-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:18:58,943-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:18:58,943-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:01,330-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:02,266-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:02,266-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:02,266-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:03,622-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:04,498-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:04,498-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:04,498-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:07,965-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:08,855-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:08,855-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:08,855-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:13,306-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:14,294-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:14,298-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:14,298-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:17,738-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:18,702-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:18,702-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:18,702-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:33,515-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:34,412-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:34,412-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:34,412-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:37,840-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:38,749-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:38,749-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:38,749-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:43,185-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:44,139-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:44,139-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:44,139-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:19:49,614-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:19:50,595-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:19:50,595-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:19:50,595-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:00,199-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:01,182-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:01,182-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:01,182-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:24,301-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:25,188-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:25,188-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:25,188-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:32,724-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:33,569-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:33,569-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:33,569-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:34,950-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:35,918-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:35,918-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:35,918-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:41,396-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:42,371-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:42,371-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:42,371-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:46,813-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:47,630-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:47,630-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:47,630-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:20:58,298-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:20:59,216-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:20:59,216-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:20:59,216-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:12,997-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:21:13,923-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:21:13,923-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:21:13,923-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:18,417-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:21:19,335-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:21:19,335-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:21:19,335-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:40,322-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:21:41,218-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:21:41,218-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:21:41,218-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:44,656-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:21:45,587-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:21:45,587-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:21:45,587-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:47,997-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:21:49,040-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:21:49,040-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:21:49,040-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:21:58,647-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:11,883-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:11,883-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:11,883-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:15,312-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:16,312-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:16,312-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:16,312-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:46,605-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:47,678-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:47,678-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:47,678-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:49,049-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:50,058-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:50,058-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:50,058-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:51,419-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:52,379-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:52,379-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:52,379-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:55,820-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:56,748-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:56,748-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:56,748-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:22:58,097-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:22:59,042-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:22:59,042-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:22:59,042-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:09,663-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:10,513-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:10,513-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:10,513-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:20,160-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:21,096-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:21,096-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:21,096-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:28,675-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:29,513-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:29,513-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:29,513-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:43,293-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:44,142-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:44,142-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:44,144-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:48,598-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:49,538-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:49,538-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:49,538-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:52,978-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:53,885-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:53,885-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:53,885-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:23:56,297-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:23:57,245-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:23:57,245-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:23:57,245-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:08,949-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:09,863-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:09,872-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:09,872-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:18,434-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:19,304-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:19,305-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:19,305-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:22,718-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:23,663-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:23,663-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:23,663-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:25,016-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:25,919-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:25,919-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:25,919-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:34,508-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:35,440-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:35,440-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:35,440-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:24:37,857-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:24:38,879-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:24:38,880-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:24:38,880-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:01,934-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:03,010-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:03,010-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:03,010-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:06,448-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:07,353-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:07,353-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:07,353-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:16,967-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:17,884-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:17,884-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:17,884-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:22,350-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:23,307-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:23,308-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:23,308-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:28,810-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:29,818-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:29,819-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:29,819-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:31,176-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:32,056-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:32,056-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:32,056-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:25:41,703-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:25:42,610-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:25:42,610-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:25:42,610-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:26:25,347-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:26:26,158-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:26:26,158-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:26:26,158-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:26:29,594-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:26:30,502-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:26:30,502-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:26:30,502-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:26:37,025-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:26:37,943-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:26:37,943-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:26:37,943-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:26:39,318-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:26:40,130-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:26:40,130-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:26:40,130-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:26:47,720-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:26:48,730-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:26:48,730-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:26:48,730-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:27:05,624-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:27:06,589-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:27:06,589-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:27:06,589-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:27:11,071-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:27:11,958-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:27:11,958-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:27:11,958-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:27:21,592-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:27:22,588-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:27:22,588-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:27:22,588-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:27:26,037-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:27:26,959-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:27:26,959-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:27:26,959-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:10,708-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:28:11,688-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:28:11,688-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:28:11,689-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:14,066-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:28:15,028-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:28:15,028-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:28:15,028-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:17,438-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:28:18,361-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:28:18,361-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:28:18,361-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:43,481-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:28:44,428-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:28:44,428-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:28:44,428-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:57,145-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:28:58,088-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:28:58,088-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:28:58,088-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:28:59,450-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:00,267-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:00,267-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:00,267-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:02,676-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:03,661-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:03,661-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:03,661-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:28,805-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:29,850-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:29,850-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:29,850-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:31,210-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:32,114-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:32,114-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:32,114-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:41,762-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:42,765-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:42,765-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:42,765-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:47,227-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:48,097-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:48,097-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:48,097-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:29:55,652-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:29:56,588-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:29:56,588-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:29:56,588-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:11,388-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:12,260-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:12,260-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:12,260-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:18,786-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:19,709-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:19,709-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:19,709-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:23,128-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:24,098-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:24,098-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:24,098-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:25,451-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:26,392-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:26,392-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:26,392-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:45,289-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:46,351-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:46,352-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:46,352-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:30:59,052-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:30:59,995-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:30:59,995-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:30:59,995-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:31:43,740-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:31:44,605-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:31:44,605-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:31:44,605-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:31:49,035-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:31:50,044-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:31:50,045-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:31:50,045-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:31:52,441-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:31:53,263-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:31:53,263-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:31:53,263-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:00,818-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:01,626-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:01,626-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:01,626-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:18,470-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:19,452-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:19,452-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:19,452-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:20,816-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:21,845-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:21,845-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:21,845-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:24,234-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:25,110-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:25,111-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:25,111-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:26,462-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:27,309-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:27,310-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:27,310-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:45,179-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:46,305-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:46,305-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:46,306-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:48,691-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:49,612-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:49,612-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:49,612-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:51,997-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:52,925-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:52,925-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:52,926-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:32:56,339-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:32:57,226-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:32:57,226-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:32:57,226-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:00,645-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:01,496-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:01,496-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:01,496-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:22,473-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:23,505-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:23,505-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:23,505-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:29,000-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:29,838-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:29,838-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:29,852-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:40,517-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:41,520-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:41,520-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:41,520-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:42,892-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:43,821-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:43,821-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:43,821-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:45,176-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:46,090-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:46,090-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:46,090-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:33:49,510-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:33:50,435-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:33:50,435-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:33:50,435-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:00,049-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:00,967-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:00,967-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:00,967-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:06,459-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:07,320-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:07,320-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:07,320-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:09,720-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:10,705-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:10,705-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:10,706-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:23,440-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:24,261-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:24,261-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:24,261-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:42,167-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:43,095-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:43,095-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:43,095-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:49,579-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:50,623-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:50,623-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:50,623-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:34:51,984-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:34:52,930-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:34:52,931-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:34:52,931-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:18,086-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:18,983-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:18,983-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:18,983-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:20,352-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:21,189-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:21,189-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:21,189-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:35,984-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:36,961-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:36,961-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:36,961-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:41,460-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:42,345-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:42,346-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:42,346-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:43,684-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:44,734-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:44,734-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:44,734-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:35:56,424-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:35:57,382-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:35:57,382-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:35:57,382-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:06,006-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:06,975-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:06,975-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:06,975-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:12,486-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:13,488-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:13,488-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:13,488-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:15,889-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:16,810-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:16,810-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:16,810-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:22,294-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:23,300-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:23,300-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:23,300-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:34,977-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:36,000-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:36,000-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:36,000-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:38,427-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:39,396-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:39,396-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:39,396-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:42,839-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:43,763-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:43,763-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:43,763-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:46,150-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:46,987-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:46,987-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:46,987-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:36:58,661-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:36:59,544-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:36:59,544-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:36:59,544-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:37:00,915-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:37:01,780-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:37:01,780-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:37:01,780-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:37:04,158-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:37:05,117-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:37:05,117-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:37:05,117-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:37:14,752-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:37:15,810-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:37:15,810-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:37:15,810-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:37:17,155-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:37:17,979-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:37:17,979-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:37:17,979-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:41:08,469-[INFO] [Thread-1 (process_request_thread)] (views:148) api get_login is called
+2023-12-23 14:41:08,473-[INFO] [Thread-1 (process_request_thread)] (views:151) Retrieving login record with username bhargav
+2023-12-23 14:41:08,514-[INFO] [Thread-1 (process_request_thread)] (views:162) GET method is triggered.
+2023-12-23 14:41:08,514-[INFO] [Thread-1 (process_request_thread)] (views:165) sending record with username bhargav
+2023-12-23 14:41:10,048-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:10,048-[INFO] [Thread-1 (process_request_thread)] (views:41) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 14:41:10,101-[INFO] [Thread-1 (process_request_thread)] (views:46) Records found with given username bhargav.
+2023-12-23 14:41:10,101-[INFO] [Thread-1 (process_request_thread)] (views:61) GET method is triggered.
+2023-12-23 14:41:10,101-[INFO] [Thread-1 (process_request_thread)] (views:72) Returning records with given id/username-bhargav
+2023-12-23 14:41:10,105-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:10,106-[INFO] [Thread-1 (process_request_thread)] (views:41) Can't find records with given id bhargav, proceeding to find records with username.
+2023-12-23 14:41:10,155-[INFO] [Thread-1 (process_request_thread)] (views:46) Records found with given username bhargav.
+2023-12-23 14:41:10,156-[INFO] [Thread-1 (process_request_thread)] (views:61) GET method is triggered.
+2023-12-23 14:41:10,156-[INFO] [Thread-1 (process_request_thread)] (views:72) Returning records with given id/username-bhargav
+2023-12-23 14:41:18,927-[INFO] [Thread-1 (process_request_thread)] (views:148) api get_login is called
+2023-12-23 14:41:18,927-[INFO] [Thread-1 (process_request_thread)] (views:151) Retrieving login record with username gopal
+2023-12-23 14:41:18,975-[INFO] [Thread-1 (process_request_thread)] (views:162) GET method is triggered.
+2023-12-23 14:41:18,976-[INFO] [Thread-1 (process_request_thread)] (views:165) sending record with username gopal
+2023-12-23 14:41:20,213-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:20,213-[INFO] [Thread-1 (process_request_thread)] (views:41) Can't find records with given id gopal, proceeding to find records with username.
+2023-12-23 14:41:20,264-[WARNING] [Thread-1 (process_request_thread)] (log:241) Not Found: /api/get_orders/gopal
+2023-12-23 14:41:20,264-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:20,264-[INFO] [Thread-1 (process_request_thread)] (views:41) Can't find records with given id gopal, proceeding to find records with username.
+2023-12-23 14:41:20,316-[WARNING] [Thread-1 (process_request_thread)] (log:241) Not Found: /api/get_orders/gopal
+2023-12-23 14:41:31,455-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:31,455-[INFO] [Thread-1 (process_request_thread)] (views:80) POST method is triggered.
+2023-12-23 14:41:31,455-[INFO] [Thread-1 (process_request_thread)] (views:82) Getting inputs from request.data which comes from react frontend
+2023-12-23 14:41:31,455-[INFO] [Thread-1 (process_request_thread)] (views:86) request is from not react front end so assign request.data directly
+2023-12-23 14:41:31,456-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/gopal
+2023-12-23 14:41:52,134-[INFO] [Thread-1 (process_request_thread)] (views:31) api get_orders is called.
+2023-12-23 14:41:52,134-[INFO] [Thread-1 (process_request_thread)] (views:80) POST method is triggered.
+2023-12-23 14:41:52,134-[INFO] [Thread-1 (process_request_thread)] (views:82) Getting inputs from request.data which comes from react frontend
+2023-12-23 14:41:52,134-[INFO] [Thread-1 (process_request_thread)] (views:86) request is from not react front end so assign request.data directly
+2023-12-23 14:41:52,136-[WARNING] [Thread-1 (process_request_thread)] (log:241) Bad Request: /api/get_orders/gopal
+2023-12-23 14:43:20,133-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:43:21,171-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:43:21,171-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:43:21,171-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:43:23,583-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:43:24,516-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:43:24,516-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:43:24,516-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:43:26,922-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:43:27,890-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:43:27,890-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:43:27,890-[INFO] [MainThread] (base:181) Scheduler started
+2023-12-23 14:43:40,601-[INFO] [MainThread] (autoreload:266) D:\allprojects\OMSReactApp\Backend\api\views.py changed, reloading.
+2023-12-23 14:43:41,553-[INFO] [MainThread] (base:454) Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-12-23 14:43:41,554-[INFO] [MainThread] (base:895) Added job "printOrders" to job store "default"
+2023-12-23 14:43:41,554-[INFO] [MainThread] (base:181) Scheduler started

@@ -90,10 +90,11 @@ function AddOrder() {
                         <Link className='btn btn-danger' to={`/show/${username}/edit`}>Edit</Link>
                     </div>
                     <div className='col center'>
-                        <form name='omsForm' className='center' onSubmit={handleSubmit}>
-                            <h3>
-                                OMS
-                            </h3>
+                        <h1>
+                            OMS add orders
+                        </h1>
+
+                        <form name='omsForm' id='addForm' className='center' onSubmit={handleSubmit}>
 
                             <label>Brand
                                 <br />
@@ -174,7 +175,7 @@ function AddOrder() {
             </div>
         </>
     );
-   
+
 }
 
 export default AddOrder;

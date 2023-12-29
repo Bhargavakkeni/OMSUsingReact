@@ -11,6 +11,11 @@ span {
     color: red;
 }
 
+#updateForm,
+#deleteForm{
+    color: greenyellow;
+}
+
 @media screen and (min-width: 750px) {
     #updateForm {
         display: flex;

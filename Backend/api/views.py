@@ -35,7 +35,7 @@ def get_orders(request,id='',format=''):
     logging.info('api get_orders is called.')
 
     #It executes if id is not null and method get called is not POST.
-    if id!='' and request.method!='POST':
+    if id!='' and request.method!='POST' and id != 'admin':
         try:
             order = OmsAdmin.objects.all().get(pk=id)
             #check is used to determine whethe we are dealing with single or multiple records.
@@ -63,7 +63,7 @@ def get_orders(request,id='',format=''):
         '''
 
         logging.info("GET method is triggered.")
-        if id=='':
+        if id=='' or id == 'admin':
             orders = OmsAdmin.objects.all()
             serializer = OrderSerializer(orders,many=True)
             logging.info("Returning all the records.")

@@ -2,7 +2,9 @@
 /*
 CSS for show.js component or 'OMS show page'.
 */
-
+body{
+    background-color: ghostwhite;
+}
 .btn {
     float: right;
     margin: 5px;
@@ -13,6 +15,12 @@ h3 {
     text-align: center;
     margin: 30px;
 }
+
+h2{
+    color: gold;
+}
+
+
 
 td,
 tr {
@@ -29,5 +37,6 @@ table {
     display: flex;
     margin: 15px auto;
     flex-wrap: wrap;
-    flex-direction: column
+    flex-direction: column;
+    color: greenyellow;
 }

@@ -7,6 +7,25 @@ label {
     margin: 4px;
 }
 
+h1{
+    text-align: center;
+    color: gold;
+}
+
+#addForm{
+    color: palegoldenrod;
+    font-size: 1.2rem;
+}
+
+#add{
+    width: 50%;
+}
+
+
+body{
+    background-color: currentColor;
+}
+
 @media screen and (min-width: 750px) {
     .center {
         margin: auto;

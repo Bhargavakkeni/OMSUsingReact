@@ -12,28 +12,32 @@ This comprehensive tech stack guarantees the robustness and optimal performance 
 
 <ul>
 <li> Go to oms-react-app
-        Run this command in terminal 
+        Run this command in terminal from the root directory.
+        
         ```
         cd oms-react-app
         ``` 
-        from the root directory.
+        
 </li>
 
 <li> Start the React server.
-        Run this command 
+        Run this command to start the server.
+        
         ```
         npm start
         ```
-        to start the server.
+        
 </li>
-<li> go to <b><i>Backend</i></b> directory.
-        Run this command from the backend directory 
+<li> Go to <b><i>Backend</i></b> directory.
+        Run this command from the backend directory to start django server.
+        
         ```python
         python manage.py runserver
         ```
-        to start django server.
 </li>
 <li>
- Open <a>localhost:3000</a> to view the page.
+ To view result in browser enter this url:
+        
+        <a>localhost:3000</a> 
  </li>
 </ul>

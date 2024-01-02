@@ -32,7 +32,7 @@ This comprehensive tech stack guarantees the robustness and optimal performance 
         Run this command from the backend directory to start django server.
         
         ```python
-        python manage.py runserver
+                python manage.py runserver
         ```
 </li>
 <li>

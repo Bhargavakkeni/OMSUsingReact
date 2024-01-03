@@ -10,9 +10,9 @@ This comprehensive tech stack ensures the robustness and optimal performance of 
 
 <h2>Requirements</h2>
 
-Python
-Node.js
-Any code editor (VSCode)
+<b>Python, 
+Node.js, 
+Any code editor (VSCode)</b>
 
 <h2>Installation</h2>
 
@@ -20,6 +20,18 @@ Any code editor (VSCode)
 
 ```
 git clone https://github.com/Bhargavakkeni/OMSUsingReact.git
+```
+
+<h3>Create virtual environment</h3>
+
+```python
+python -m venv venv_name
+```
+
+<h3>Activate virtual environment</h3>
+
+```
+venv_name\Scripts\activate
 ```
 
 <h3>Navigate to the project directory</h3>

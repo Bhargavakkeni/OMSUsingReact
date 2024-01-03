@@ -8,27 +8,59 @@ For the front-end development, ReactJS ensured an engaging user interface, while
 
 This comprehensive tech stack ensures the robustness and optimal performance of the OMS web application.
 
+<h2>Installation</h2>
+
+<h3>Clone the repository</h3>
+
+```
+git clone https://github.com/Bhargavakkeni/OMSUsingReact.git
+```
+
+<h3>Navigate to the project directory</h3>
+
+```
+cd webapp
+cd nextlabproject
+```
+
+<h3>Install dependencies</h3>
+
+```python
+pip install -r requirements.txt
+```
+
+<h3>Run migrations</h3>
+
+```python
+python manage.py migrate
+```
+
 <h2>How To Run?</h2>
 
-Go to oms-react-app. Run the following command in the terminal from the root directory:
+<h3>Go to <b><i>Backend</i></b> directory. Run the development server</h3>
 
 ```
-cd oms-react-app
-``` 
-        
-To Start the React server. Run this command to start the server.
-
+cd Backend
 ```
-npm start
-```
-        
-Go to <b><i>Backend</i></b> directory. Run the development server:
 
 ```python
 python manage.py runserver
 ```
 
-To view result in browser enter this url:
+<h3>Go to <b><i>oms-react-app</i><b>. Run the following command in the terminal from the root directory</h3>
+
+```
+cd oms-react-app
+``` 
+        
+<h3>To Start the React server. Run this command</h3>
+
+```
+npm start
+```
+
+
+<h3>To view result in browser enter this url</h3>
 
 <a>http://localhost:3000 </a> 
 
